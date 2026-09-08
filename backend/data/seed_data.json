@@ -1,0 +1,67 @@
+[
+  {
+    "id": "F001",
+    "feed_type": "Cattle Feed Pellet",
+    "sample_type": "feed",
+    "feed_subtype": "pellet",
+    "moisture_pct": 10.0,
+    "protein_pct": 21.0,
+    "fiber_pct": 14.0,
+    "aflatoxin_ppb": 5.0,
+    "ph": null,
+    "adulteration_detected": "None",
+    "quality_status": "Good"
+  },
+  {
+    "id": "F002",
+    "feed_type": "Silage",
+    "sample_type": "silage",
+    "feed_subtype": null,
+    "moisture_pct": 68.0,
+    "protein_pct": 9.0,
+    "fiber_pct": 24.0,
+    "aflatoxin_ppb": 12.0,
+    "ph": 4.1,
+    "adulteration_detected": "Mould Presence",
+    "quality_status": "Moderate"
+  },
+  {
+    "id": "F003",
+    "feed_type": "Mineral Mixture",
+    "sample_type": "feed",
+    "feed_subtype": "mineral_mixture",
+    "moisture_pct": 3.0,
+    "protein_pct": null,
+    "fiber_pct": null,
+    "aflatoxin_ppb": 0.0,
+    "ph": null,
+    "adulteration_detected": "Excess Salt",
+    "quality_status": "Poor"
+  },
+  {
+    "id": "F004",
+    "feed_type": "Feed Mash",
+    "sample_type": "feed",
+    "feed_subtype": "mash",
+    "moisture_pct": 12.0,
+    "protein_pct": 18.0,
+    "fiber_pct": 16.0,
+    "aflatoxin_ppb": 20.0,
+    "ph": null,
+    "adulteration_detected": "Sand Contamination",
+    "quality_status": "Unsafe"
+  },
+  {
+    "id": "F005",
+    "feed_type": "Silage",
+    "sample_type": "silage",
+    "feed_subtype": null,
+    "moisture_pct": 72.0,
+    "protein_pct": 8.0,
+    "fiber_pct": 28.0,
+    "aflatoxin_ppb": 8.0,
+    "ph": 5.8,
+    "adulteration_detected": "Spoilage Detected",
+    "quality_status": "Poor"
+  }
+]

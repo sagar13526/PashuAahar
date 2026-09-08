@@ -1,0 +1,16 @@
+{
+  "name": "PashuAahar",
+  "short_name": "PashuAahar",
+  "description": "Smart AI-Enabled Rapid Feed and Silage Quality Testing System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#15803d",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
