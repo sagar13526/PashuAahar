@@ -44,7 +44,7 @@ export default function History({ onSelectTest, onBack, isOnline, onSyncComplete
         return;
       }
 
-      const res = await fetch("http://127.0.0.1:8000/sync", {
+      const res = await fetch("https://pashuaahar-api.onrender.com/sync", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ records: unsynced })
