@@ -20,7 +20,7 @@ import {
   LayoutDashboard, RefreshCw, Home as HomeIcon, CheckCircle2 
 } from "lucide-react";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://pashuaahar-api.onrender.com";
 
 export default function App() {
   const { t, lang, setLang } = useLanguage();
