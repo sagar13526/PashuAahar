@@ -151,7 +151,7 @@ export default function Home({ onSelectSampleType, onSelectDemoSample, onNavigat
           ))}
         </div>
       </div>
-      );
-      }
+    );
+  }
 
      
