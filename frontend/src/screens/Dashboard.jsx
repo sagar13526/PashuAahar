@@ -31,7 +31,7 @@ ChartJS.register(
   Title
 );
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://pashuaahar-api.onrender.com";
 
 export default function Dashboard({ onBack, onSelectTest, isOnline }) {
   const { t, lang } = useLanguage();
