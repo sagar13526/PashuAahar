@@ -152,38 +152,6 @@ export default function Home({ onSelectSampleType, onSelectDemoSample, onNavigat
         </div>
       </div>
 
-      {/* Quick Nav Cards */}
-      <div className="grid grid-cols-2 gap-3">
-        <button
-          onClick={() => onNavigate("history")}
-          className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200 hover:border-slate-300 shadow-2xs text-left"
-        >
-          <div className="p-2.5 bg-slate-100 rounded-lg text-slate-700">
-            <History className="w-5 h-5" />
-          </div>
-          <div>
-            <div className="text-sm font-bold text-slate-800">{t("nav.history")}</div>
-            <div className="text-xs text-slate-500">
-              {lang === 'hi' ? "डिवाइस में सुरक्षित" : "Stored on device"}
-            </div>
-          </div>
-        </button>
-
-        <button
-          onClick={() => onNavigate("dashboard")}
-          className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200 hover:border-slate-300 shadow-2xs text-left"
-        >
-          <div className="p-2.5 bg-slate-100 rounded-lg text-slate-700">
-            <LayoutDashboard className="w-5 h-5" />
-          </div>
-          <div>
-            <div className="text-sm font-bold text-slate-800">{t("nav.dashboard")}</div>
-            <div className="text-xs text-slate-500">
-              {lang === 'hi' ? "सहकारी संस्था के आँकड़े" : "Cooperative analytics"}
-            </div>
-          </div>
-        </button>
-      </div>
-    </div>
+      
   );
 }
